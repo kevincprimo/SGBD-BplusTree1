@@ -1,0 +1,14 @@
+C:\Users\Chuveiro Elétrico\SgbdI\bin\Debug\net9.0\SgbdI.exe
+C:\Users\Chuveiro Elétrico\SgbdI\bin\Debug\net9.0\SgbdI.deps.json
+C:\Users\Chuveiro Elétrico\SgbdI\bin\Debug\net9.0\SgbdI.runtimeconfig.json
+C:\Users\Chuveiro Elétrico\SgbdI\bin\Debug\net9.0\SgbdI.dll
+C:\Users\Chuveiro Elétrico\SgbdI\bin\Debug\net9.0\SgbdI.pdb
+C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\SgbdI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\SgbdI.AssemblyInfoInputs.cache
+C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\SgbdI.AssemblyInfo.cs
+C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\SgbdI.csproj.CoreCompileInputs.cache
+C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\SgbdI.dll
+C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\refint\SgbdI.dll
+C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\SgbdI.pdb
+C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\SgbdI.genruntimeconfig.cache
+C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\ref\SgbdI.dll
