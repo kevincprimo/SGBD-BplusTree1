@@ -56,21 +56,22 @@ class Program
 
                 if (keyToOffset.TryGetValue(key, out long offset))
                 {
-                    tree.Insert(key, (int)offset); // insere chave + ponteiro real
+                    tree.Insert(key, (int)offset);
                     outputLines.Add($"INC:{key}/1");
                 }
                 else
                 {
-                    outputLines.Add($"INC:{key}/0"); // chave não existe no CSV
+                    outputLines.Add($"INC:{key}/0");
                 }
             }
-            else if (line.StartsWith("INC:") || line.StartsWith("BUS=:")){
-            string[] partes = line.Split(':');
-            int valor = int.Parse(partes[1]);
-    
+            else if (line.StartsWith("BUS=:"))
+            {
+                int key = int.Parse(line.Substring(5));
+                int found = tree.Search(key);
+                outputLines.Add($"BUS=:{key}/{found}");
             }
-
         }
+
 
         // Altura final da árvore
         outputLines.Add($"H/{tree.GetHeight()}");

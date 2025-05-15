@@ -222,31 +222,27 @@ public class BPlusTree
     }
 
 
-    public List<int> Search(int key)
+    public int Search(int key)
     {
+        if (rootNodeId == -1) return 0;
+
         BPlusNode current = bufferManager.LoadNode(rootNodeId);
 
         while (current is InternalNode internalNode)
         {
             int i = 0;
             while (i < internalNode.Keys.Count && key > internalNode.Keys[i]) i++;
-            int childId = internalNode.ChildrenNodeIds[i];
-            current = bufferManager.LoadNode(childId);
+            current = bufferManager.LoadNode(internalNode.ChildrenNodeIds[i]);
         }
 
         if (current is LeafNode leaf)
         {
-            List<int> results = new List<int>();
-            for (int i = 0; i < leaf.Keys.Count; i++)
-            {
-                if (leaf.Keys[i] == key)
-                    results.Add(leaf.RecordPointers[i]);
-            }
-            return results;
+            return leaf.Keys.Contains(key) ? 1 : 0;
         }
 
-        return new List<int>();
+        return 0;
     }
+
 
     public int GetHeight(){
     int height = 0;
