@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 public class LeafNode : BPlusNode
 {
-    public List<int> Keys { get; set; }
+    public new List<int> Keys { get; set; } = new List<int>();
     public List<int> RecordPointers { get; set; }
     public int NextLeafNodeId { get; set; }
 

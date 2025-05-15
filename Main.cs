@@ -64,12 +64,12 @@ class Program
                     outputLines.Add($"INC:{key}/0"); // chave não existe no CSV
                 }
             }
-            else if (line.StartsWith("BUS="))
-            {
-                int key = int.Parse(line.Split('=')[1]);
-                List<int> results = tree.Search(key);
-                outputLines.Add($"BUS=:{key}/{results.Count}");
+            else if (line.StartsWith("INC:") || line.StartsWith("BUS=:")){
+            string[] partes = line.Split(':');
+            int valor = int.Parse(partes[1]);
+    
             }
+
         }
 
         // Altura final da árvore

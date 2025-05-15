@@ -12,3 +12,4 @@ C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\refint\SgbdI.dll
 C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\SgbdI.pdb
 C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\SgbdI.genruntimeconfig.cache
 C:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\ref\SgbdI.dll
+c:\Users\Chuveiro Elétrico\SgbdI\obj\Debug\net9.0\SgbdI.sourcelink.json
