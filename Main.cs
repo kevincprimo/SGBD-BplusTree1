@@ -34,7 +34,7 @@ class Program
             while ((line = reader.ReadLine()) != null)
             {
                 string[] parts = line.Split(',');
-                if (int.TryParse(parts[0], out int id)) // ID é a chave
+                if (int.TryParse(parts[2], out int id)) // ID é a chave
                 {
                     if (!keyToOffset.ContainsKey(id))
                         keyToOffset[id] = position;
